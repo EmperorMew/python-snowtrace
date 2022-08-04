@@ -24,8 +24,8 @@ The following endpoints are provided:
 <details><summary>Accounts <a href="https://Snowtrace.io/apis#accounts">(source)</a></summary>
 <p>
 
-* `get_avax_balance`
-* `get_avax_balance_multiple`
+* `get_eth_balance`
+* `get_eth_balance_multiple`
 * `get_normal_txs_by_address`
 * `get_normal_txs_by_address_paginated`
 * `get_internal_txs_by_address`
@@ -99,7 +99,7 @@ The following endpoints are provided:
 <details><summary>Stats <a href="https://Snowtrace.io/apis#stats">(source)</a></summary>
 <p>
   
-* `get_total_avax_supply`
+* `get_total_eth_supply`
 
 </details>
 
@@ -138,14 +138,14 @@ The tests also include the PRO endpoints so if your key is not PRO, the correspo
 In `python`, create a client with your personal [Snowtrace.io](https://Snowtrace.io/) API key:
 
 ``` python
-from snowtrace import Snowtrace
-avax = Snowtrace(YOUR_API_KEY) # key in quotation marks
+from etherscan import Etherscan
+eth = Etherscan(YOUR_API_KEY) # key in quotation marks
 ```
 
 Then you can call all available methods, e.g.:
 
 ``` python
-avax.get_avax_balance(address="0x316c15213B097854a0c31565a0eC8705f6f9e72B")
+eth.get_eth_balance(address="0x316c15213B097854a0c31565a0eC8705f6f9e72B")
 
 > ''
 ```
@@ -170,7 +170,7 @@ Examples (arguments and results) for all methods may be found as JSON files [her
 where `kwargs` refer to the required named arguments and `res` refers to the expected result if you were to run:
 
 ``` python
-avax.get_block_number_by_timestamp(timestamp="1578638524", closest="before")
+eth.get_block_number_by_timestamp(timestamp="1578638524", closest="before")
 
 > '9251482'
 ```
