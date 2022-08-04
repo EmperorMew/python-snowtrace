@@ -8,7 +8,7 @@ from unittest import TestCase
 from etherscan.etherscan import Etherscan
 
 CONFIG_PATH = "etherscan/configs/{}-stable.json"
-API_KEY = os.environ["API_KEY"]  # Encrypted env var by Travis
+API_KEY = os.environ["API_KEY"]  #
 
 
 def load(fname):

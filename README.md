@@ -1,24 +1,17 @@
-# etherscan-python
+# python-snowtrace
 
-[![Build Status](https://github.com/pcko1/etherscan-python/workflows/build/badge.svg)](https://github.com/pcko1/etherscan-python) 
-[![codecov](https://codecov.io/gh/pcko1/etherscan-python/branch/master/graph/badge.svg)](https://codecov.io/gh/pcko1/etherscan-python)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6db2e36886ee46f58720c6131ef58dd6)](https://app.codacy.com/gh/pcko1/etherscan-python?utm_source=github.com&utm_medium=referral&utm_content=pcko1/etherscan-python&utm_campaign=Badge_Grade)
-[![](https://img.shields.io/codeclimate/tech-debt/pcko1/etherscan-python)](https://codeclimate.com/github/pcko1/etherscan-python)
-[![Maintainability](https://api.codeclimate.com/v1/badges/94c15c6d8b1ec869a7fd/maintainability)](https://codeclimate.com/github/pcko1/etherscan-python/maintainability)
-[![CodeFactor](https://www.codefactor.io/repository/github/pcko1/etherscan-python/badge)](https://www.codefactor.io/repository/github/pcko1/etherscan-python)
 
-[![PyPI](https://badge.fury.io/py/etherscan-python.svg)](https://badge.fury.io/py/etherscan-python)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/etherscan-python)
-![GitHub](https://img.shields.io/github/license/pcko1/etherscan-python)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6db2e36886ee46f58720c6131ef58dd6)](https://app.codacy.com/gh/EmperorMew/python-snowtrace?utm_source=github.com&utm_medium=referral&utm_content=EmperorMew/python-snowtrace&utm_campaign=Badge_Grade)
+[![Maintainability](https://api.codeclimate.com/v1/badges/94c15c6d8b1ec869a7fd/maintainability)](https://codeclimate.com/github/EmperorMew/python-snowtrace/maintainability)
+![GitHub](https://img.shields.io/github/license/EmperorMew/python-snowtrace)
 [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-385/)
-[![DOI](https://zenodo.org/badge/298646404.svg)](https://zenodo.org/badge/latestdoi/298646404)
 
 
-A minimal, yet complete, Python API for [Etherscan.io](https://etherscan.io/). 
+A minimal, yet complete, Python API for [Snowtrace.io](https://Snowtrace.io/). 
 
 All standard and pro endpoints are provided. Kovan, Rinkeby and Ropsten testnets are also supported.
 
-Available on [PyPI](https://pypi.org/project/etherscan-python/). Powered by [Etherscan.io APIs](https://etherscan.io/apis#misc).
+Available on [PyPI](https://pypi.org/project/python-snowtrace/). Powered by [Snowtrace.io APIs](https://Snowtrace.io/apis#misc).
 
 
 ___
@@ -28,7 +21,7 @@ ___
 
 The following endpoints are provided:
 
-<details><summary>Accounts <a href="https://etherscan.io/apis#accounts">(source)</a></summary>
+<details><summary>Accounts <a href="https://Snowtrace.io/apis#accounts">(source)</a></summary>
 <p>
 
 * `get_eth_balance`
@@ -50,7 +43,7 @@ The following endpoints are provided:
 
 </details>
 
-<details><summary>Contracts <a href="https://etherscan.io/apis#contracts">(source)</a></summary>
+<details><summary>Contracts <a href="https://Snowtrace.io/apis#contracts">(source)</a></summary>
 <p>
   
 * `get_contract_abi`
@@ -58,9 +51,9 @@ The following endpoints are provided:
 
 </details>
 
-</details>
 
-<details><summary>Transactions <a href="https://etherscan.io/apis#transactions">(source)</a></summary>
+
+<details><summary>Transactions <a href="https://Snowtrace.io/apis#transactions">(source)</a></summary>
 <p>
   
 * `get_contract_execution_status`
@@ -68,7 +61,7 @@ The following endpoints are provided:
 
 </details>
 
-<details><summary>Blocks <a href="https://etherscan.io/apis#blocks">(source)</a></summary>
+<details><summary>Blocks <a href="https://Snowtrace.io/apis#blocks">(source)</a></summary>
 <p>
   
 * `get_block_reward_by_block_number`
@@ -77,7 +70,7 @@ The following endpoints are provided:
 
 </details>
 
-<details><summary>GETH/Parity Proxy <a href="https://etherscan.io/apis#proxy">(source)</a></summary>
+<details><summary>GETH/Parity Proxy <a href="https://Snowtrace.io/apis#proxy">(source)</a></summary>
 <p>
 
 * `get_proxy_block_number`
@@ -96,7 +89,7 @@ The following endpoints are provided:
 
 </details>
 
-<details><summary>Tokens <a href="https://etherscan.io/apis#tokens">(source)</a></summary>
+<details><summary>Tokens <a href="https://Snowtrace.io/apis#tokens">(source)</a></summary>
 <p>
   
 * `get_total_supply_by_contract_address`
@@ -104,7 +97,7 @@ The following endpoints are provided:
 
 </details>
 
-<details><summary>Gas Tracker <a href="https://etherscan.io/apis#gastracker">(source)</a></summary>
+<details><summary>Gas Tracker <a href="https://Snowtrace.io/apis#gastracker">(source)</a></summary>
 <p>
   
 * `get_est_confirmation_time`
@@ -112,7 +105,7 @@ The following endpoints are provided:
 
 </details>
 
-<details><summary>Stats <a href="https://etherscan.io/apis#stats">(source)</a></summary>
+<details><summary>Stats <a href="https://Snowtrace.io/apis#stats">(source)</a></summary>
 <p>
   
 * `get_total_eth_supply`
@@ -121,7 +114,7 @@ The following endpoints are provided:
 
 </details>
 
-<details><summary>Pro (PRO API key needed) <a href="https://etherscan.io/apis#APIpro">(source)</a></summary>
+<details><summary>Pro (PRO API key needed) <a href="https://Snowtrace.io/apis#APIpro">(source)</a></summary>
 <p>
 
 * `get_hist_eth_balance_for_address_by_block_no`
@@ -147,24 +140,24 @@ The following endpoints are provided:
 
 </details>
 
-*If you think that a newly-added method is missing, kindly open an [issue](https://github.com/pcko1/etherscan-python/issues) as a feature request and I will do my best to add it.*
+*If you think that a newly-added method is missing, kindly open an [issue](https://github.com/EmperorMew/python-snowtrace/issues) as a feature request and I will do my best to add it.*
 
 ## Installation
 
-Before proceeding, you should register an account on [Etherscan.io](https://etherscan.io/) and [generate a personal API key](https://etherscan.io/myapikey) to use. 
+Before proceeding, you should register an account on [Snowtrace.io](https://Snowtrace.io/) and [generate a personal API key](https://Snowtrace.io/myapikey) to use. 
 
 If you wish to have access to the PRO endpoints, you should obtain elevated privileges via Etherscan's subscription service.
 
 Install from source:
 
 ``` bash
-pip install git+https://github.com/pcko1/etherscan-python.git
+pip install git+https://github.com/EmperorMew/python-snowtrace.git
 ```
 
-Alternatively, install from [PyPI](https://pypi.org/project/etherscan-python/):
+Alternatively, install from [PyPI](https://pypi.org/project/python-snowtrace/):
 
 ```bash
-pip install etherscan-python
+pip install python-snowtrace
 ```
 
 ## Unit tests
@@ -181,7 +174,7 @@ The tests also include the PRO endpoints so if your key is not PRO, the correspo
 
 ## Usage
 
-In `python`, create a client with your personal [Etherscan.io](https://etherscan.io/) API key:
+In `python`, create a client with your personal [Snowtrace.io](https://Snowtrace.io/) API key:
 
 ``` python
 from etherscan import Etherscan
@@ -202,7 +195,7 @@ eth = Etherscan(YOUR_API_KEY, net="ropsten") # net name is case-insensitive, def
 
 ## Examples
 
-Examples (arguments and results) for all methods may be found as JSON files [here](https://github.com/pcko1/etherscan-python/tree/master/logs).  For example, if you want to use the method `get_block_number_by_timestamp`, you can find the supported arguments and the format of its output in its respective [JSON file](logs/standard/get_block_number_by_timestamp.json):
+Examples (arguments and results) for all methods may be found as JSON files [here](https://github.com/EmperorMew/python-snowtrace/tree/master/logs).  For example, if you want to use the method `get_block_number_by_timestamp`, you can find the supported arguments and the format of its output in its respective [JSON file](logs/standard/get_block_number_by_timestamp.json):
 
 ``` json
 {
@@ -225,25 +218,25 @@ eth.get_block_number_by_timestamp(timestamp="1578638524", closest="before")
 > '9251482'
 ```
 
-**Disclaimer**: Those examples blindly use the arguments originally showcased [here](https://api.etherscan.io/apis) and the selected wallets/contracts do not reflect any personal preference. You should refer to the same source for additional information regarding specific argument values.
+**Disclaimer**: Those examples blindly use the arguments originally showcased [here](https://api.Snowtrace.io/apis) and the selected wallets/contracts do not reflect any personal preference. You should refer to the same source for additional information regarding specific argument values.
 
 ## Issues
 
-For problems regarding installing or using the package please open an [issue](https://github.com/pcko1/etherscan-python/issues). Kindly avoid disclosing potentially sensitive information such as your API keys or your wallet addresses.
+For problems regarding installing or using the package please open an [issue](https://github.com/EmperorMew/python-snowtrace/issues). Kindly avoid disclosing potentially sensitive information such as your API keys or your wallet addresses.
 
 ## Cite
 
-Kotsias, P. C., pcko1/etherscan-python. *https://github.com/pcko1/etherscan-python (2020)*. doi:10.5281/zenodo.4306855
+Kotsias, P. C., EmperorMew/python-snowtrace. *https://github.com/EmperorMew/python-snowtrace (2020)*. doi:10.5281/zenodo.4306855
 
 or in ```bibtex```:
 
 ```bibtex
 @misc{Kotsias2020,
   author = {Kotsias, P.C.},
-  title = {pcko1/etherscan-python},
+  title = {EmperorMew/python-snowtrace},
   year = {2020},
   publisher = {Zenodo},
-  url = {https://github.com/pcko1/etherscan-python},
+  url = {https://github.com/EmperorMew/python-snowtrace},
   doi = {10.5281/zenodo.4306855}
 }
 ```
@@ -252,4 +245,4 @@ Feel free to leave a :star: if you found this package useful.
 
 ___
 
- Powered by [Etherscan.io APIs](https://etherscan.io/apis).
+ Powered by [Snowtrace.io APIs](https://Snowtrace.io/apis).
