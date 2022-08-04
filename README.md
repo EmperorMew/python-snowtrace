@@ -24,8 +24,8 @@ The following endpoints are provided:
 <details><summary>Accounts <a href="https://Snowtrace.io/apis#accounts">(source)</a></summary>
 <p>
 
-* `get_avax_balance`
-* `get_avax_balance_multiple`
+* `get_eth_balance`
+* `get_eth_balance_multiple`
 * `get_normal_txs_by_address`
 * `get_normal_txs_by_address_paginated`
 * `get_internal_txs_by_address`
@@ -99,7 +99,7 @@ The following endpoints are provided:
 <details><summary>Stats <a href="https://Snowtrace.io/apis#stats">(source)</a></summary>
 <p>
   
-* `get_total_avax_supply`
+* `get_total_eth_supply`
 
 </details>
 
@@ -145,7 +145,7 @@ avax = Etherscan(YOUR_API_KEY) # key in quotation marks
 Then you can call all available methods, e.g.:
 
 ``` python
-avax.get_avax_balance(address="0x316c15213B097854a0c31565a0eC8705f6f9e72B")
+avax.get_eth_balance(address="0x316c15213B097854a0c31565a0eC8705f6f9e72B")
 
 > ''
 ```

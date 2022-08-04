@@ -11,7 +11,7 @@ class Proxy:
             f"{fields.MODULE}"
             f"{modules.PROXY}"
             f"{fields.ACTION}"
-            f"{actions.AVAX_BLOCK_NUMBER}"
+            f"{actions.ETH_BLOCK_NUMBER}"
         )
         return url
 
@@ -21,7 +21,7 @@ class Proxy:
             f"{fields.MODULE}"
             f"{modules.PROXY}"
             f"{fields.ACTION}"
-            f"{actions.AVAX_GET_BLOCK_BY_NUMBER}"
+            f"{actions.ETH_GET_BLOCK_BY_NUMBER}"
             f"{fields.TAG}"
             f"{tag}"
             f"{fields.BOOLEAN}"
@@ -35,7 +35,7 @@ class Proxy:
             f"{fields.MODULE}"
             f"{modules.PROXY}"
             f"{fields.ACTION}"
-            f"{actions.AVAX_GET_UNCLE_BY_BLOCK_NUMBER_AND_INDEX}"
+            f"{actions.ETH_GET_UNCLE_BY_BLOCK_NUMBER_AND_INDEX}"
             f"{fields.TAG}"
             f"{tag}"
             f"{fields.INDEX}"
