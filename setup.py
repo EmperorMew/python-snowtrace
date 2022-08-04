@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="python-snowtrace",
-    version="1.0",
+    version="1.1",
     description="A minimal, yet complete, python API for snowtrace.io.",
     url="https://github.com/EmperorMew/python-snowtrace",
     author="EmperorMew",
