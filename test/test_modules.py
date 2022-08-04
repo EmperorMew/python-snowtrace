@@ -5,9 +5,9 @@ import time
 import os
 from unittest import TestCase
 
-from etherscan.etherscan import Etherscan
+from snowtrace.snowtrace import Snowtrace
 
-CONFIG_PATH = "etherscan/configs/{}-stable.json"
+CONFIG_PATH = "snowtrace/configs/{}-stable.json"
 API_KEY = os.environ["API_KEY"]  #
 
 
@@ -29,11 +29,11 @@ class Case(TestCase):
         print(f"\nNET: {net}")
         print(f"MODULE: {self._MODULE}")
         config = load(CONFIG_PATH.format(net))
-        etherscan = Etherscan(API_KEY, net)
+        snowtrace = Snowtrace(API_KEY, net)
         for fun, v in config.items():
             if not fun.startswith("_"):  # disabled if _
                 if v["module"] == self._MODULE:
-                    res = getattr(etherscan, fun)(**v["kwargs"])
+                    res = getattr(snowtrace, fun)(**v["kwargs"])
                     print(f"METHOD: {fun}, RTYPE: {type(res)}")
                     # Create log files (will update existing ones)
                     fname = f"logs/standard/{net}-{fun}.json"
