@@ -147,13 +147,9 @@ eth = Etherscan(YOUR_API_KEY) # key in quotation marks
 Then you can call all available methods, e.g.:
 
 ``` python
-eth.get_eth_balance(address="0xddbd2b932c763ba5b1b7ae3b362eac3e8d40121a")
+eth.get_eth_balance(address="0x316c15213B097854a0c31565a0eC8705f6f9e72B")
 
-> '40891631566070000000000'
-```
-You can also choose one of the other testnets:
-``` python
-eth = Etherscan(YOUR_API_KEY, net="ropsten") # net name is case-insensitive, default is main
+> ''
 ```
 
 ## Examples
@@ -189,18 +185,17 @@ For problems regarding installing or using the package please open an [issue](ht
 
 ## Cite
 
-Kotsias, P. C., EmperorMew/python-snowtrace. *https://github.com/EmperorMew/python-snowtrace (2020)*. doi:10.5281/zenodo.4306855
+DRP, EmperorMew/python-snowtrace. *https://github.com/EmperorMew/python-snowtrace (2022)*. doi:10.5281/zenodo.4306855
 
 or in ```bibtex```:
 
 ```bibtex
-@misc{Kotsias2020,
-  author = {Kotsias, P.C.},
+@misc{DRP2022,
+  author = {DRP},
   title = {EmperorMew/python-snowtrace},
-  year = {2020},
-  publisher = {Zenodo},
+  year = {2022},
+  publisher = {snowcone},
   url = {https://github.com/EmperorMew/python-snowtrace},
-  doi = {10.5281/zenodo.4306855}
 }
 ```
 
