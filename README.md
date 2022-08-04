@@ -185,19 +185,8 @@ For problems regarding installing or using the package please open an [issue](ht
 
 ## Cite
 
-DRP, EmperorMew/python-snowtrace. *https://github.com/EmperorMew/python-snowtrace (2022)*. doi:10.5281/zenodo.4306855
+DRP, EmperorMew/python-snowtrace. *https://github.com/EmperorMew/python-snowtrace (2022)*.
 
-or in ```bibtex```:
-
-```bibtex
-@misc{DRP2022,
-  author = {DRP},
-  title = {EmperorMew/python-snowtrace},
-  year = {2022},
-  publisher = {snowcone},
-  url = {https://github.com/EmperorMew/python-snowtrace},
-}
-```
 
 Feel free to leave a :star: if you found this package useful.
 
