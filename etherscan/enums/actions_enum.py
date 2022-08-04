@@ -21,23 +21,23 @@ class ActionsEnum:
     DAILY_TX: str = "dailytx"
     DAILY_TXN_FEE: str = "dailytxnfee"
     DAILY_UNCLE_BLK_COUNT: str = "dailyuncleblkcount"
-    ETH_BLOCK_NUMBER: str = "eth_blockNumber"
-    ETH_CALL: str = "eth_call"
-    ETH_DAILY_MARKET_CAP: str = "ethdailymarketcap"
-    ETH_DAILY_PRICE: str = "ethdailyprice"
-    ETH_ESTIMATE_GAS: str = "eth_estimateGas"
-    ETH_GAS_PRICE: str = "eth_gasPrice"
-    ETH_GET_BLOCK_BY_NUMBER: str = "eth_getBlockByNumber"
-    ETH_GET_BLOCK_TRANSACTION_COUNT_BY_NUMBER: str = (
-        "eth_getBlockTransactionCountByNumber"
+    AVAX_BLOCK_NUMBER: str = "avax_blockNumber"
+    AVAX_CALL: str = "avax_call"
+    AVAX_DAILY_MARKET_CAP: str = "avaxdailymarketcap"
+    AVAX_DAILY_PRICE: str = "avaxdailyprice"
+    AVAX_ESTIMATE_GAS: str = "avax_estimateGas"
+    AVAX_GAS_PRICE: str = "avax_gasPrice"
+    AVAX_GET_BLOCK_BY_NUMBER: str = "avax_getBlockByNumber"
+    AVAX_GET_BLOCK_TRANSACTION_COUNT_BY_NUMBER: str = (
+        "avax_getBlockTransactionCountByNumber"
     )
-    ETH_GET_CODE: str = "eth_getCode"
-    ETH_GET_STORAGE_AT: str = "eth_getStorageAt"
-    ETH_GET_TRANSACTION_BY_BLOCK_NUMBER_AND_INDEX: str = (
-        "eth_getTransactionByBlockNumberAndIndex"
+    AVAX_GET_CODE: str = "avax_getCode"
+    AVAX_GET_STORAGE_AT: str = "avax_getStorageAt"
+    AVAX_GET_TRANSACTION_BY_BLOCK_NUMBER_AND_INDEX: str = (
+        "avax_getTransactionByBlockNumberAndIndex"
     )
-    ETH_GET_TRANSACTION_BY_HASH: str = "eth_getTransactionByHash"
-    ETH_GET_TRANSACTION_COUNT: str = "eth_getTransactionCount"
+    AVAX_GET_TRANSACTION_BY_HASH: str = "avax_getTransactionByHash"
+    AVAX_GET_TRANSACTION_COUNT: str = "avax_getTransactionCount"
     ETH_GET_TRANSACTION_RECEIPT: str = "eth_getTransactionReceipt"
     ETH_GET_UNCLE_BY_BLOCK_NUMBER_AND_INDEX: str = "eth_getUncleByBlockNumberAndIndex"
     ETH_PRICE: str = "ethprice"

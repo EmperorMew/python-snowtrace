@@ -5,27 +5,27 @@ from etherscan.enums.modules_enum import ModulesEnum as modules
 
 class Stats:
     @staticmethod
-    def get_total_eth_supply() -> str:
+    def get_total_avax_supply() -> str:
         url = (
             f"{fields.MODULE}"
             f"{modules.STATS}"
             f"{fields.ACTION}"
-            f"{actions.ETH_SUPPLY}"
+            f"{actions.AVAX_SUPPLY}"
         )
         return url
 
     @staticmethod
-    def get_eth_last_price() -> str:
+    def get_avax_last_price() -> str:
         url = (
             f"{fields.MODULE}"
             f"{modules.STATS}"
             f"{fields.ACTION}"
-            f"{actions.ETH_PRICE}"
+            f"{actions.AVAX_PRICE}"
         )
         return url
 
     @staticmethod
-    def get_eth_nodes_size(
+    def get_avax_nodes_size(
         start_date: str, end_date: str, client_type: str, sync_mode: str, sort: str
     ) -> str:
         url = (
