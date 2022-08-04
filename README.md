@@ -96,46 +96,10 @@ The following endpoints are provided:
 
 </details>
 
-<details><summary>Gas Tracker <a href="https://Snowtrace.io/apis#gastracker">(source)</a></summary>
-<p>
-  
-* `get_est_confirmation_time`
-* `get_gas_oracle`
-
-</details>
-
 <details><summary>Stats <a href="https://Snowtrace.io/apis#stats">(source)</a></summary>
 <p>
   
 * `get_total_eth_supply`
-* `get_eth_last_price`
-* `get_eth_nodes_size`
-
-</details>
-
-<details><summary>Pro (PRO API key needed) <a href="https://Snowtrace.io/apis#APIpro">(source)</a></summary>
-<p>
-
-* `get_hist_eth_balance_for_address_by_block_no`
-* `get_daily_average_block_size`
-* `get_daily_block_count_and_rewards`
-* `get_daily_block_rewards`
-* `get_daily_average_block_time`
-* `get_daily_uncle_block_count_and_rewards`
-* `get_hist_erc20_token_total_supply_by_contract_address_and_block_no`
-* `get_hist_erc20_token_account_balance_for_token_contract_address_by_block_no`
-* `get_token_info_by_contract_address`
-* `get_daily_average_gas_limit`
-* `get_eth_daily_total_gas_used`
-* `get_eth_daily_average_gas_price`
-* `get_eth_daily_network_tx_fee`
-* `get_daily_new_address_count`
-* `get_daily_network_utilization`
-* `get_daily_average_network_hash_rate`
-* `get_daily_tx_count`
-* `get_daily_average_network_difficulty`
-* `get_eth_hist_daily_market_cap`
-* `get_eth_hist_price`
 
 </details>
 
