@@ -118,7 +118,7 @@ pip install git+https://github.com/EmperorMew/python-snowtrace.git
 Alternatively, install from [PyPI](https://pypi.org/project/python-snowtrace/):
 
 ```bash
-pip install python-snowtrace
+pip install python-snowtrace==1.0
 ```
 
 ## Unit tests
