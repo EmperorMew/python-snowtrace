@@ -55,8 +55,7 @@ The following endpoints are provided:
 
 <details><summary>Transactions <a href="https://Snowtrace.io/apis#transactions">(source)</a></summary>
 <p>
-  
-* `get_contract_execution_status`
+
 * `get_tx_receipt_status`
 
 </details>
