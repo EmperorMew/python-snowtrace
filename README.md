@@ -24,8 +24,6 @@ The following endpoints are provided:
 <details><summary>Accounts <a href="https://Snowtrace.io/apis#accounts">(source)</a></summary>
 <p>
 
-* `get_eth_balance`
-* `get_eth_balance_multiple`
 * `get_normal_txs_by_address`
 * `get_normal_txs_by_address_paginated`
 * `get_internal_txs_by_address`
@@ -40,6 +38,8 @@ The following endpoints are provided:
 * `get_erc721_token_transfer_events_by_address_and_contract_paginated`
 * `get_mined_blocks_by_address`
 * `get_mined_blocks_by_address_paginated`
+* `get_eth_balance`
+* `get_eth_balance_multiple`
 
 </details>
 
@@ -145,7 +145,7 @@ avax = Snowtrace(YOUR_API_KEY) # key in quotation marks
 Then you can call all available methods, e.g.:
 
 ``` python
-avax.get_eth_balance(address="0x316c15213B097854a0c31565a0eC8705f6f9e72B")
+print(avax.get_contract_source_code(address="0x37B608519F91f70F2EeB0e5Ed9AF4061722e4F76"))
 
 > ''
 ```
