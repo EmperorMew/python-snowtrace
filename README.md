@@ -109,8 +109,6 @@ The following endpoints are provided:
 
 Before proceeding, you should register an account on [Snowtrace.io](https://Snowtrace.io/) and [generate a personal API key](https://Snowtrace.io/myapikey) to use. 
 
-If you wish to have access to the PRO endpoints, you should obtain elevated privileges via Etherscan's subscription service.
-
 Install from source:
 
 ``` bash
