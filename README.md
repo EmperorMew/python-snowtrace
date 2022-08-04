@@ -11,7 +11,7 @@ A minimal, yet complete, Python API for [Snowtrace.io](https://Snowtrace.io/).
 
 All standard endpoints are provided.
 
-Available on [PyPI](https://pypi.org/project/python-snowtrace/1.0/). Powered by [Snowtrace.io APIs](https://Snowtrace.io/apis#misc).
+Available on [PyPI](https://pypi.org/project/python-snowtrace/). Powered by [Snowtrace.io APIs](https://Snowtrace.io/apis#misc).
 
 
 ___
@@ -115,10 +115,10 @@ Install from source:
 pip install git+https://github.com/EmperorMew/python-snowtrace.git
 ```
 
-Alternatively, install from [PyPI](https://pypi.org/project/python-snowtrace/1.0/):
+Alternatively, install from [PyPI](https://pypi.org/project/python-snowtrace/):
 
 ```bash
-pip install python-snowtrace==1.1
+pip install python-snowtrace
 ```
 
 ## Unit tests
