@@ -157,7 +157,7 @@ where `kwargs` refer to the required named arguments and `res` refers to the exp
 ``` python
 print(avax.get_eth_balance(address="0x9f8c163cBA728e99993ABe7495F06c0A3c8Ac8b9"))
 
-> '938731131805911191538419' This will return AVAX balance of the address.
+> '938731131805911191538419' # This will return AVAX balance of the address.
 ```
 
 **Disclaimer**: Those examples blindly use the arguments originally showcased [here](https://api.Snowtrace.io/apis) and the selected wallets/contracts do not reflect any personal preference. You should refer to the same source for additional information regarding specific argument values.
@@ -168,7 +168,7 @@ For problems regarding installing or using the package please open an [issue](ht
 
 ## Cite
 
-DRP, EmperorMew/python-snowtrace. *https://github.com/EmperorMew/python-snowtrace (2022)*.
+[Snowcones.io](https://www.snowcones.io), EmperorMew/python-snowtrace. *https://github.com/EmperorMew/python-snowtrace (2022)*.
 
 
 Feel free to leave a :star: if you found this package useful.
