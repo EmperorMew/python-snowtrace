@@ -142,14 +142,13 @@ Examples (arguments and results) for all methods may be found as JSON files [her
 
 ``` json
 {
-  "method": "get_block_number_by_timestamp",
-  "module": "blocks",
+  "method": "get_eth_balance",
+  "module": "accounts",
   "kwargs": {
-    "timestamp": "1578638524",
-    "closest": "before"
+    "address": "0x9f8c163cBA728e99993ABe7495F06c0A3c8Ac8b9"
   },
-  "log_timestamp": "2020-10-28-12:34:44",
-  "res": "9251482"
+  "log_timestamp": "2022-08-08-12:34:29",
+  "res": "40891631566070000000000"
 }
 ```
 
