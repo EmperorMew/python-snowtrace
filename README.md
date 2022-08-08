@@ -121,18 +121,6 @@ Alternatively, install from [PyPI](https://pypi.org/project/python-snowtrace/):
 pip install python-snowtrace
 ```
 
-## Unit tests
-
-In `bash`, test that everything looks OK on your end using your `YOUR_API_KEY` (without quotation marks) before proceeding:
-
-``` bash
-bash run_tests.sh YOUR_API_KEY
-````
-
-This will regenerate the logs under `logs/` with the most recent results and the timestamp of the execution.
-
-The tests also include the PRO endpoints so if your key is not PRO, the correspondings tests are expected to fail.
-
 ## Usage
 
 In `python`, create a client with your personal [Snowtrace.io](https://Snowtrace.io/) API key:
@@ -170,9 +158,9 @@ Examples (arguments and results) for all methods may be found as JSON files [her
 where `kwargs` refer to the required named arguments and `res` refers to the expected result if you were to run:
 
 ``` python
-avax.get_block_number_by_timestamp(timestamp="1578638524", closest="before")
+print(avax.get_eth_balance(address="0x9f8c163cBA728e99993ABe7495F06c0A3c8Ac8b9"))
 
-> '9251482'
+> '938731131805911191538419' This will return AVAX balance of the address.
 ```
 
 **Disclaimer**: Those examples blindly use the arguments originally showcased [here](https://api.Snowtrace.io/apis) and the selected wallets/contracts do not reflect any personal preference. You should refer to the same source for additional information regarding specific argument values.
