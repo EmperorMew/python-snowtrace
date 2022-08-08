@@ -13,5 +13,3 @@ docs
 
 # eggs
 *egg*
-!/test/test_modules.py
-!/run_tests.sh
