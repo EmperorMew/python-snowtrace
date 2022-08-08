@@ -138,7 +138,7 @@ print(avax.get_contract_source_code(address="0x37B608519F91f70F2EeB0e5Ed9AF40617
 
 ## Examples
 
-Examples (arguments and results) for all methods may be found as JSON files [here](https://github.com/EmperorMew/python-snowtrace/tree/master/logs).  For example, if you want to use the method `get_block_number_by_timestamp`, you can find the supported arguments and the format of its output in its respective [JSON file](logs/standard/get_block_number_by_timestamp.json):
+Examples (arguments and results) for all methods may be found as JSON files [here](https://github.com/EmperorMew/python-snowtrace/tree/master/logs).  For example, if you want to use the method `get_eth_balance`, you can find the supported arguments and the format of its output in its respective [JSON file](logs/standard/get_eth_balance.json):
 
 ``` json
 {
