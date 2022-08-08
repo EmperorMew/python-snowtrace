@@ -121,18 +121,6 @@ Alternatively, install from [PyPI](https://pypi.org/project/python-snowtrace/):
 pip install python-snowtrace
 ```
 
-## Unit tests
-
-In `bash`, test that everything looks OK on your end using your `YOUR_API_KEY` (without quotation marks) before proceeding:
-
-``` bash
-bash run_tests.sh YOUR_API_KEY
-````
-
-This will regenerate the logs under `logs/` with the most recent results and the timestamp of the execution.
-
-The tests also include the PRO endpoints so if your key is not PRO, the correspondings tests are expected to fail.
-
 ## Usage
 
 In `python`, create a client with your personal [Snowtrace.io](https://Snowtrace.io/) API key:
