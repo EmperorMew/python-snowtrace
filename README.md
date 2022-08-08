@@ -21,6 +21,14 @@ ___
 
 The following endpoints are provided:
 
+<details><summary>Contracts <a href="https://Snowtrace.io/apis#contracts">(source)</a></summary>
+<p>
+  
+* `get_contract_abi`
+* `get_contract_source_code`
+
+</details>
+
 <details><summary>Accounts <a href="https://Snowtrace.io/apis#accounts">(source)</a></summary>
 <p>
 
@@ -42,16 +50,6 @@ The following endpoints are provided:
 * `get_eth_balance_multiple`
 
 </details>
-
-<details><summary>Contracts <a href="https://Snowtrace.io/apis#contracts">(source)</a></summary>
-<p>
-  
-* `get_contract_abi`
-* `get_contract_source_code`
-
-</details>
-
-
 
 <details><summary>Transactions <a href="https://Snowtrace.io/apis#transactions">(source)</a></summary>
 <p>
