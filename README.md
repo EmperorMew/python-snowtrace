@@ -168,7 +168,8 @@ For problems regarding installing or using the package please open an [issue](ht
 
 ## Cite
 
-[Snowcones.io](https://www.snowcones.io), EmperorMew/python-snowtrace. *https://github.com/EmperorMew/python-snowtrace (2022)*.
+[Snowcones.io](https://www.snowcones.io), [EmperorMew/python-snowtrace](https://github.com/EmperorMew/python-snowtrace) 
+*(2022)*.
 
 
 Feel free to leave a :star: if you found this package useful.
