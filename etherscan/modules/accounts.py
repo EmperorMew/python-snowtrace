@@ -9,7 +9,7 @@ from etherscan.enums.tags_enum import TagsEnum as tags
 
 class Accounts:
     @staticmethod
-    def get_eth_balance(address: str) -> str:
+    def get_avax_balance(address: str) -> str:
         url = (
             f"{fields.MODULE}"
             f"{modules.ACCOUNT}"
@@ -25,7 +25,7 @@ class Accounts:
         # return conversions.to_ticker_unit(parser.get_result(r))
 
     @staticmethod
-    def get_eth_balance_multiple(addresses: List[str]) -> str:
+    def get_avax_balance_multiple(addresses: List[str]) -> str:
         # NOTE: Max 20 wallets at a time
         address_list = reduce(lambda w1, w2: str(w1) + "," + str(w2), addresses)
         url = (
