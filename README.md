@@ -6,6 +6,7 @@
 ![GitHub](https://img.shields.io/github/license/EmperorMew/python-snowtrace)
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 
+Maintained by [Snowcones.io](https://www.snowcones.io)
 
 A minimal, yet complete, Python API for [Snowtrace.io](https://Snowtrace.io/). 
 
