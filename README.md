@@ -1,5 +1,5 @@
 # python-snowtrace
-
+Maintained by [Snowcones.io](https://www.snowcones.io)
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6db2e36886ee46f58720c6131ef58dd6)](https://app.codacy.com/gh/EmperorMew/python-snowtrace?utm_source=github.com&utm_medium=referral&utm_content=EmperorMew/python-snowtrace&utm_campaign=Badge_Grade)
 [![Maintainability](https://api.codeclimate.com/v1/badges/94c15c6d8b1ec869a7fd/maintainability)](https://codeclimate.com/github/EmperorMew/python-snowtrace/maintainability)
