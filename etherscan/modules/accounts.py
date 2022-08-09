@@ -1,10 +1,10 @@
 from functools import reduce
 from typing import List
 
-from snowtrace.enums.actions_enum import ActionsEnum as actions
-from snowtrace.enums.fields_enum import FieldsEnum as fields
-from snowtrace.enums.modules_enum import ModulesEnum as modules
-from snowtrace.enums.tags_enum import TagsEnum as tags
+from etherscan.enums.actions_enum import ActionsEnum as actions
+from etherscan.enums.fields_enum import FieldsEnum as fields
+from etherscan.enums.modules_enum import ModulesEnum as modules
+from etherscan.enums.tags_enum import TagsEnum as tags
 
 
 class Accounts:

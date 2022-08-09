@@ -3,10 +3,10 @@ from importlib import resources
 
 import requests
 
-import snowtrace
-from snowtrace import configs
-from snowtrace.enums.fields_enum import FieldsEnum as fields
-from snowtrace.utils.parsing import ResponseParser as parser
+import etherscan
+from etherscan import configs
+from etherscan.enums.fields_enum import FieldsEnum as fields
+from etherscan.utils.parsing import ResponseParser as parser
 
 
 class Etherscan:
@@ -39,6 +39,6 @@ class Etherscan:
         config = cls.__load_config(config_path)
         for func, v in config.items():
             if not func.startswith("_"):  # disabled if _
-                attr = getattr(getattr(snowtrace, v["module"]), func)
+                attr = getattr(getattr(etherscan, v["module"]), func)
                 setattr(cls, func, cls.__run(attr, api_key, net))
         return cls
