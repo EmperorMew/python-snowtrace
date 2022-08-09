@@ -47,8 +47,8 @@ The following endpoints are provided:
 * `get_erc721_token_transfer_events_by_address_and_contract_paginated`
 * `get_mined_blocks_by_address`
 * `get_mined_blocks_by_address_paginated`
-* `get_avax_balance`
-* `get_avax_balance_multiple`
+* `get_eth_balance`
+* `get_eth_balance_multiple`
 
 </details>
 
@@ -139,11 +139,11 @@ print(avax.get_contract_source_code(address="0x37B608519F91f70F2EeB0e5Ed9AF40617
 
 ## Examples
 
-Examples (arguments and results) for all methods may be found as JSON files [here](https://github.com/EmperorMew/python-snowtrace/tree/master/logs).  For example, if you want to use the method `get_avax_balance`, you can find the supported arguments and the format of its output in its respective [JSON file](logs/standard/get_avax_balance.json):
+Examples (arguments and results) for all methods may be found as JSON files [here](https://github.com/EmperorMew/python-snowtrace/tree/master/logs).  For example, if you want to use the method `get_eth_balance`, you can find the supported arguments and the format of its output in its respective [JSON file](logs/standard/get_eth_balance.json):
 
 ``` json
 {
-  "method": "get_avax_balance",
+  "method": "get_eth_balance",
   "module": "accounts",
   "kwargs": {
     "address": "0x9f8c163cBA728e99993ABe7495F06c0A3c8Ac8b9"
@@ -156,7 +156,7 @@ Examples (arguments and results) for all methods may be found as JSON files [her
 where `kwargs` refer to the required named arguments and `res` refers to the expected result if you were to run:
 
 ``` python
-print(avax.get_avax_balance(address="0x9f8c163cBA728e99993ABe7495F06c0A3c8Ac8b9"))
+print(avax.get_eth_balance(address="0x9f8c163cBA728e99993ABe7495F06c0A3c8Ac8b9"))
 
 > '938731131805911191538419' # This will return AVAX balance of the address.
 ```
