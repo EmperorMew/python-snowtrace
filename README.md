@@ -125,7 +125,7 @@ pip install python-snowtrace
 In `python`, create a client with your personal [Snowtrace.io](https://Snowtrace.io/) API key:
 
 ``` python
-from etherscan import Snowtrace
+from snowtrace import Snowtrace
 avax = Snowtrace(YOUR_API_KEY) # key in quotation marks
 ```
 
