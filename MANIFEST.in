@@ -1,6 +1,6 @@
-include etherscan/configs/MAIN-stable.json
-include etherscan/configs/GOERLI-stable.json
-include etherscan/configs/KOVAN-stable.json
-include etherscan/configs/RINKEBY-stable.json
-include etherscan/configs/ROPSTEN-stable.json
+include snowtrace/configs/MAIN-stable.json
+include snowtrace/configs/GOERLI-stable.json
+include snowtrace/configs/KOVAN-stable.json
+include snowtrace/configs/RINKEBY-stable.json
+include snowtrace/configs/ROPSTEN-stable.json
 
